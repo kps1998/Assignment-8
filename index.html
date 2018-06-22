@@ -69,7 +69,7 @@ function init()
     <!-- Page Content -->
     <div class="container">
         
-        
+        Number:<input type="number" id="MyText" value="10">
         <button onclick="Onsquare()">Square of x</button>
 
     </div>
@@ -83,16 +83,19 @@ function init()
 
     <!-- Bootstrap Core JavaScript -->
     
-    <!--Number:<input type="text" id="MyText">-->
-    <!--a=document.getElementById("MyText").value;-->
-    
+    <!--
+    document.getElementById("MyText").value;
+    a=document.querySelector('#MyText').value;
+    -->
     <script src="js/bootstrap.min.js"></script>
     <sript src="customsript.js"></sript>
     <script>
-        let a=10;
+        var a=10;
+        var a = document.getElementById("MyText").value;
         
         function Onsquare()
         {
+            var a = document.getElementById("MyText").value;
             console.log("Value of a");
             console.log(a);
             let b=a*a;
