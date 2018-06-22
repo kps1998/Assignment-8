@@ -1,0 +1,144 @@
+body
+    {
+        background-image: url("uncolored-wooden-table-panel-texture-37990351.jpg");
+        margin: 0px;
+        padding: 0px;
+    }
+.center 
+    {
+        text-align: center;
+        list-style-position: inside;
+        color: crimson;
+    }
+.topnav 
+    {
+        background-color: white;
+        overflow: hidden;
+        position: fixed;
+        top: 0;    
+        width : 100%;
+        opacity: 1.0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+#link 
+    {
+        float: right;
+        font-family: monospace;
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-right: 60px;
+        margin-bottom: 10px;
+        padding-left: 40px; 
+        padding-bottom: 15px;    
+        padding-right: 40px;
+        padding-top: 15px;
+        color: white;
+        font-size: 17px;
+        background-color: crimson;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: crimson;
+        border-width: medium;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-decoration: none;
+    }
+.link
+    {
+        color: crimson;    
+    }
+.index
+    {
+        background-color: crimson;
+        opacity: 1.0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: crimson;
+    }
+.about
+    {
+        background-color: white;
+        opacity: 1.0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 95%;
+        padding-bottom: 0px;
+        text-shadow: 1px 1px 4px #000000;
+    }
+a
+    {
+        color: crimson;
+    }
+.ol11
+     {
+         list-style-image: url(favicon-32x32_1.png);
+         display: inline;
+         font-family: monospace;
+         color: black;
+         
+     }
+.ol22
+     {
+        list-style-image: url(favicon32x32_8.png);
+        display: inline;
+        font-family: monospace;
+         color: black;
+     }
+.ol33
+     {
+         list-style-image: url(favicon-32x32_7.png);
+         display: inline;
+         font-family: monospace;
+         color: black;
+     }
+.ol1
+    {
+        list-style-image: url(favicon-32x32_1.png);
+        margin-left: 50px;
+        font-family: cursive;
+        justify-content: center;
+        color: #ffdb04;
+    }
+.ol2
+    {
+        list-style-image: url(favicon32x32_8.png);
+        margin-left: 50px;
+        font-family: cursive;
+        justify-content: center;
+        color: #febe7e;
+    }
+.ol3
+    {
+        list-style-image: url(favicon-32x32_7.png);
+        margin-left: 50px;
+        font-family: cursive;
+        justify-content: center;
+        color: #da2925;
+    }
+.bottomnav
+    {
+        background-color: white;
+        color: crimson;
+        bottom: 0;
+        padding: 0px;
+        margin: 0px;
+        width : 100%;
+        opacity: 1.0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        font-family: monospace;
+    }
+.limg
+    {
+        max-width: 100%;
+        width: 1200px;
+        height: auto;
+    }
+.button2
+    {   
+        background-color: #0c8ab6;
+    }
+.button3
+    {   
+        background-color: #57385c;
+    }
+.button4
+    {   
+        background-color: #a2d7ee;
+    }
