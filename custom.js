@@ -9,9 +9,9 @@ function getDiscriminant(a,b,c)
     var temp1;
     var temp2;
     temp1=(b*b)-(4*a*c);
+    temp1=Math.abs(temp1);
     console.log(temp1);
-    temp2=Math.sqrt(temp1);
-    temp2=Math.abs(temp2);
+    temp2=Math.sqrt((Math.abs(temp1));
     console.log(temp2);
     return temp2;
 }
