@@ -34,6 +34,8 @@ function CalculateRoot()
     else
         {
             document.getElementById("MyDIV").innerHTML+="<p><br /><pre>    Roots are imaginary";
+            document.getElementById("MyDIV").innerHTML+="<p><br /><pre>   First  Root is "+(-x1/2*x2)+"+"+(d/(2*x2))+"i"+"</pre></p>";
+            document.getElementById("MyDIV").innerHTML+="<p><br /><pre>   Sedond Root is "+(-x1/2*x2)+"-"+(d/(2*x2))+"i"+"</pre></p>";
         }
     console.log("Roots are\n"+r1+r2);
     return true;
