@@ -11,7 +11,7 @@ function getDiscriminant(a,b,c)
     temp1=(b*b)-(4*a*c);
     temp1=Math.abs(temp1);
     console.log(temp1);
-    temp2=Math.sqrt((Math.abs(temp1));
+    temp2=Math.sqrt((Math.abs(temp1)));
     console.log(temp2);
     return temp2;
 }
